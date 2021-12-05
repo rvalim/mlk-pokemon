@@ -1,0 +1,20 @@
+{
+  "name": "pokemon",
+  "version": "1.0.0",
+  "description": "Premium Minds Challange",
+  "scripts": {
+    "test": "mocha -r ts-node/register src/**/*.tests.ts"
+  },
+  "author": "Ricardo Valim",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^16.11.11",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.3",
+    "ts-node": "^8.10.2",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^3.9.7"
+  }
+}
