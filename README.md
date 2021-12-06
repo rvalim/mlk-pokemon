@@ -57,3 +57,14 @@ npm run test
 ### Adding more tests
 
 Test files are located inside "src/tests", add or change the file as you wish following the structure of Typescript, Mocha and Chai.
+
+## Complexity
+
+Time: O(n) being N the number of given movements.
+Space: O(n) in the worst scenario, considering that all movements will reach diferent cells, and new data will be save on the Set object.
+
+## Considerations
+
+* Null movements will return 1 pokemon, being this the start cell.
+* Empty string of movements will return 1 pokemon, being this the start cell.
+* Each time you call findPokemon method a new Grid will be instantiated, meanning that the grid is full of pokemons again.
